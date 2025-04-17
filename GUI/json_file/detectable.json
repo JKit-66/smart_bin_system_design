@@ -1,0 +1,49 @@
+{
+    "Mixed Recycling": {
+        "facts": [
+            "Recycling a single aluminium can will save enough energy to power a TV for up to three hours or an iPod for up to twenty hours!",
+            "The glass we recycle in the UK each year saves enough energy to launch 10 space shuttle missions.",
+            "Recycling a single plastic bottle will save enough energy to power a lightbulb for three hours or more.",
+            "It takes just 25 two-litre plastic bottles to make a recycled fleece jacket.",
+            "The average UK household uses around 600 steel cans every year."
+        ],
+        "items": ["alCan", "plasticBottle", "plasticContainer", "glassBottle", "glassJar", "plasticLid", "plasticMilkBottle"]
+    },
+    "Paper": {
+        "facts": [
+            "The average person living in the UK uses around 200kg of paper every year.",
+            "We save 17 trees when a tonne of paper is recycled.",
+            "In one day an average school uses about 2,000 sheets of paper",
+            "Paper and card make up 40% of the waste collected for recycling from UK households.",
+            "The first recorded instance of recycling is paper recycling in Japan in 1031."
+        ],
+        "items": ["crumpledPaper", "paperEnvelope", "paperBox", "tissueCore", "book"]
+    },
+    "Food Waste": {
+        "facts": [
+            "3 billion tonnes of food are wasted around the world every year.",
+            "If 25% of the food currently being lost or wasted globally was saved, it would be enough to feed 870 million people around the world. ",
+            "The average household spends £470 on food that ends up in the bin every year.",
+            "If food waste was a country, it would be the third biggest emitter of greenhouse gases after the US and China.",
+            "UK households create 7 million tonnes of food waste each year, that’s a kilo of food for every person on the plant."
+        ],
+        "items": ["vegeScraps", "noodlePasta", "meat", "sandwich", "eggShell", "pastry", "fruit"]
+    },
+    "General Waste": {
+        "facts": [
+            "More than 10,000 tonnes of waste are sent to landfill sites across the world every day.",
+            "More than 40 million tonnes of commercial and industrial waste are generated in the UK each year.",
+            "Each person in the UK throws away their own body weight in rubbish every seven weeks on average.",
+            "Birds and small animals swallow the cigarette butts after mistaking them for food, resulting in poisoning, malnutrition and death.",
+            "Expired medicines should not be thrown in the trash; many pharmacies offer take-back programs."
+        ],
+        "items": ["softPlastic", "paperCup", "penPencil", "cutlery", "shoe", "milkCarton", "General Waste"]
+    },
+    "Prohibited Item": {
+        "facts": [
+            "Vapes contain lithium-ion batteries, which can ignite if punctured or crushed during the recycling process, posing a serious safety risk to workers and facilities.",
+            "Electronic waste should not be placed in recycling bins because it contains toxic substances such as lead and mercury, which can contaminate other recyclables and harm the environment if not disposed of properly."
+        ],
+        "items": ["vape"]
+    }
+}

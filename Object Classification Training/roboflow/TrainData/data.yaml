@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 26
+names: ['shoe', 'paperBox', 'pastry', 'penPencil', 'milkCarton', 'cutlery', 'crumpledPaper', 'eggShell', 'glassBottle', 'plasticContainer', 'paperEnvelope', 'paperCup', 'fruit', 'noodlePasta', 'plasticLid', 'plasticMilkBottle', 'sandwich', 'tissueCore', 'vape', 'vegeScraps', 'glassJar', 'meat', 'book', 'plasticBottle', 'alCan', 'softPlastic']
+
+roboflow:
+  workspace: djs-workspace-w9ddh
+  project: pencil-vdqlj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/djs-workspace-w9ddh/pencil-vdqlj/dataset/1

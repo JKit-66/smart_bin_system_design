@@ -1,0 +1,781 @@
+Analysis for Class: alCan
+Total True Positive Detections: 103
+Total Class under General: 17
+Average Max Confidence for True Class: 0.8459
+Average Number of Items Detected: 1.57
+True Positive Detections:
+  Mean Confidence: 0.7915 (79.15%)
+  Confidence Distribution:
+    1-40: 7
+    40-60: 7
+    60-70: 9
+    70-80: 11
+    80-90: 41
+    90-100: 35
+False Positive Detections:
+  Mean Confidence: 0.5819 (58.19%)
+  Confidence Distribution:
+    1-40: 10
+    40-60: 15
+    60-70: 6
+    70-80: 8
+    80-90: 7
+    90-100: 1
+Top Most Common False Detections:
+  paperCup: 9 times
+  paperBox: 7 times
+  plasticContainer: 7 times
+  plasticLid: 4 times
+  book: 3 times
+  glassJar: 3 times
+  milkCarton: 2 times
+  vape: 1 times
+  pastry: 1 times
+
+
+Analysis for Class: book
+Total True Positive Detections: 89
+Total Class under General: 29
+Average Max Confidence for True Class: 0.7588
+Average Number of Items Detected: 1.63
+True Positive Detections:
+  Mean Confidence: 0.6496 (64.96%)
+  Confidence Distribution:
+    1-40: 17
+    40-60: 26
+    60-70: 18
+    70-80: 12
+    80-90: 28
+    90-100: 5
+False Positive Detections:
+  Mean Confidence: 0.5868 (58.68%)
+  Confidence Distribution:
+    1-40: 12
+    40-60: 19
+    60-70: 5
+    70-80: 12
+    80-90: 8
+    90-100: 1
+Top Most Common False Detections:
+  paperEnvelope: 34 times
+  vape: 6 times
+  milkCarton: 2 times
+  plasticLid: 1 times
+  tissueCore: 1 times
+  paperBox: 1 times
+
+
+Analysis for Class: crumpledPaper
+Total True Positive Detections: 280
+Total Class under General: 3
+Average Max Confidence for True Class: 0.9326
+Average Number of Items Detected: 2.50
+True Positive Detections:
+  Mean Confidence: 0.9150 (91.50%)
+  Confidence Distribution:
+    1-40: 1
+    40-60: 0
+    60-70: 3
+    70-80: 2
+    80-90: 43
+    90-100: 232
+False Positive Detections:
+  Mean Confidence: 0.6962 (69.62%)
+  Confidence Distribution:
+    1-40: 2
+    40-60: 0
+    60-70: 0
+    70-80: 2
+    80-90: 2
+    90-100: 1
+Top Most Common False Detections:
+  plasticContainer: 5 times
+
+
+Analysis for Class: cutlery
+Total True Positive Detections: 260
+Total Class under General: 23
+Average Max Confidence for True Class: 0.8043
+Average Number of Items Detected: 3.03
+True Positive Detections:
+  Mean Confidence: 0.7341 (73.41%)
+  Confidence Distribution:
+    1-40: 13
+    40-60: 34
+    60-70: 30
+    70-80: 78
+    80-90: 114
+    90-100: 4
+False Positive Detections:
+  Mean Confidence: 0.5388 (53.88%)
+  Confidence Distribution:
+    1-40: 10
+    40-60: 6
+    60-70: 9
+    70-80: 4
+    80-90: 1
+    90-100: 0
+Top Most Common False Detections:
+  paperEnvelope: 10 times
+  paperCup: 5 times
+  vegeScraps: 1 times
+  shoe: 1 times
+  penPencil: 1 times
+  book: 1 times
+  milkCarton: 1 times
+
+
+Analysis for Class: eggShell
+Total True Positive Detections: 106
+Total Class under General: 15
+Average Max Confidence for True Class: 0.8362
+Average Number of Items Detected: 1.58
+True Positive Detections:
+  Mean Confidence: 0.7858 (78.58%)
+  Confidence Distribution:
+    1-40: 5
+    40-60: 11
+    60-70: 14
+    70-80: 15
+    80-90: 32
+    90-100: 34
+False Positive Detections:
+  Mean Confidence: 0.5663 (56.63%)
+  Confidence Distribution:
+    1-40: 10
+    40-60: 14
+    60-70: 6
+    70-80: 7
+    80-90: 7
+    90-100: 0
+Top Most Common False Detections:
+  crumpledPaper: 25 times
+  plasticMilkBottle: 7 times
+  plasticLid: 1 times
+  paperCup: 1 times
+
+
+Analysis for Class: fruit
+Total True Positive Detections: 139
+Total Class under General: 68
+Average Max Confidence for True Class: 0.7981
+Average Number of Items Detected: 2.38
+True Positive Detections:
+  Mean Confidence: 0.6566 (65.66%)
+  Confidence Distribution:
+    1-40: 35
+    40-60: 29
+    60-70: 15
+    70-80: 33
+    80-90: 54
+    90-100: 8
+False Positive Detections:
+  Mean Confidence: 0.4731 (47.31%)
+  Confidence Distribution:
+    1-40: 33
+    40-60: 27
+    60-70: 12
+    70-80: 5
+    80-90: 4
+    90-100: 0
+Top Most Common False Detections:
+  vegeScraps: 13 times
+  sandwich: 11 times
+  pastry: 10 times
+  meat: 4 times
+  eggShell: 3 times
+  plasticLid: 3 times
+  noodlePasta: 2 times
+  glassJar: 1 times
+  crumpledPaper: 1 times
+
+
+Analysis for Class: glassBottle
+Total True Positive Detections: 77
+Total Class under General: 21
+Average Max Confidence for True Class: 0.8108
+Average Number of Items Detected: 1.25
+True Positive Detections:
+  Mean Confidence: 0.7979 (79.79%)
+  Confidence Distribution:
+    1-40: 2
+    40-60: 6
+    60-70: 3
+    70-80: 10
+    80-90: 53
+    90-100: 5
+False Positive Detections:
+  Mean Confidence: 0.4802 (48.02%)
+  Confidence Distribution:
+    1-40: 19
+    40-60: 15
+    60-70: 7
+    70-80: 2
+    80-90: 3
+    90-100: 0
+Top Most Common False Detections:
+  plasticContainer: 16 times
+  plasticBottle: 5 times
+  shoe: 3 times
+  glassJar: 2 times
+  plasticLid: 1 times
+
+
+Analysis for Class: glassJar
+Total True Positive Detections: 83
+Total Class under General: 15
+Average Max Confidence for True Class: 0.8106
+Average Number of Items Detected: 1.34
+True Positive Detections:
+  Mean Confidence: 0.7818 (78.18%)
+  Confidence Distribution:
+    1-40: 3
+    40-60: 8
+    60-70: 5
+    70-80: 14
+    80-90: 52
+    90-100: 4
+False Positive Detections:
+  Mean Confidence: 0.6042 (60.42%)
+  Confidence Distribution:
+    1-40: 12
+    40-60: 11
+    60-70: 7
+    70-80: 7
+    80-90: 9
+    90-100: 2
+Top Most Common False Detections:
+  plasticBottle: 13 times
+  alCan: 10 times
+  plasticContainer: 9 times
+  glassBottle: 3 times
+  milkCarton: 1 times
+
+
+Analysis for Class: meat
+Total True Positive Detections: 212
+Total Class under General: 134
+Average Max Confidence for True Class: 0.7398
+Average Number of Items Detected: 3.64
+True Positive Detections:
+  Mean Confidence: 0.5154 (51.54%)
+  Confidence Distribution:
+    1-40: 118
+    40-60: 99
+    60-70: 45
+    70-80: 37
+    80-90: 30
+    90-100: 1
+False Positive Detections:
+  Mean Confidence: 0.4288 (42.88%)
+  Confidence Distribution:
+    1-40: 16
+    40-60: 13
+    60-70: 4
+    70-80: 1
+    80-90: 0
+    90-100: 0
+Top Most Common False Detections:
+  sandwich: 14 times
+  vegeScraps: 2 times
+  pastry: 1 times
+  noodlePasta: 1 times
+
+
+Analysis for Class: milkCarton
+Total True Positive Detections: 127
+Total Class under General: 10
+Average Max Confidence for True Class: 0.8231
+Average Number of Items Detected: 1.80
+True Positive Detections:
+  Mean Confidence: 0.7836 (78.36%)
+  Confidence Distribution:
+    1-40: 3
+    40-60: 19
+    60-70: 8
+    70-80: 17
+    80-90: 54
+    90-100: 29
+False Positive Detections:
+  Mean Confidence: 0.6054 (60.54%)
+  Confidence Distribution:
+    1-40: 7
+    40-60: 17
+    60-70: 6
+    70-80: 11
+    80-90: 9
+    90-100: 0
+Top Most Common False Detections:
+  paperBox: 16 times
+  glassBottle: 7 times
+  softPlastic: 7 times
+  alCan: 5 times
+  plasticBottle: 4 times
+  sandwich: 1 times
+  paperCup: 1 times
+  vegeScraps: 1 times
+  tissueCore: 1 times
+
+
+Analysis for Class: noodlePasta
+Total True Positive Detections: 99
+Total Class under General: 7
+Average Max Confidence for True Class: 0.7815
+Average Number of Items Detected: 1.10
+True Positive Detections:
+  Mean Confidence: 0.7725 (77.25%)
+  Confidence Distribution:
+    1-40: 1
+    40-60: 8
+    60-70: 11
+    70-80: 23
+    80-90: 55
+    90-100: 2
+False Positive Detections:
+  Mean Confidence: 0.4412 (44.12%)
+  Confidence Distribution:
+    1-40: 6
+    40-60: 1
+    60-70: 2
+    70-80: 1
+    80-90: 0
+    90-100: 0
+Top Most Common False Detections:
+  meat: 4 times
+
+
+Analysis for Class: paperBox
+Total True Positive Detections: 94
+Total Class under General: 6
+Average Max Confidence for True Class: 0.8211
+Average Number of Items Detected: 1.20
+True Positive Detections:
+  Mean Confidence: 0.8123 (81.23%)
+  Confidence Distribution:
+    1-40: 1
+    40-60: 5
+    60-70: 3
+    70-80: 7
+    80-90: 77
+    90-100: 2
+False Positive Detections:
+  Mean Confidence: 0.5262 (52.62%)
+  Confidence Distribution:
+    1-40: 5
+    40-60: 14
+    60-70: 2
+    70-80: 3
+    80-90: 1
+    90-100: 0
+Top Most Common False Detections:
+  book: 12 times
+  sandwich: 3 times
+  paperEnvelope: 2 times
+  softPlastic: 1 times
+  milkCarton: 1 times
+  plasticContainer: 1 times
+
+
+Analysis for Class: paperCup
+Total True Positive Detections: 76
+Total Class under General: 11
+Average Max Confidence for True Class: 0.8343
+Average Number of Items Detected: 1.27
+True Positive Detections:
+  Mean Confidence: 0.7949 (79.49%)
+  Confidence Distribution:
+    1-40: 4
+    40-60: 7
+    60-70: 9
+    70-80: 9
+    80-90: 24
+    90-100: 27
+False Positive Detections:
+  Mean Confidence: 0.6221 (62.21%)
+  Confidence Distribution:
+    1-40: 7
+    40-60: 13
+    60-70: 8
+    70-80: 10
+    80-90: 7
+    90-100: 2
+Top Most Common False Detections:
+  plasticContainer: 32 times
+  alCan: 2 times
+  plasticLid: 2 times
+  shoe: 2 times
+  book: 1 times
+  softPlastic: 1 times
+
+
+Analysis for Class: paperEnvelope
+Total True Positive Detections: 125
+Total Class under General: 37
+Average Max Confidence for True Class: 0.7889
+Average Number of Items Detected: 1.87
+True Positive Detections:
+  Mean Confidence: 0.6905 (69.05%)
+  Confidence Distribution:
+    1-40: 19
+    40-60: 23
+    60-70: 17
+    70-80: 25
+    80-90: 48
+    90-100: 12
+False Positive Detections:
+  Mean Confidence: 0.5139 (51.39%)
+  Confidence Distribution:
+    1-40: 18
+    40-60: 11
+    60-70: 4
+    70-80: 6
+    80-90: 4
+    90-100: 0
+Top Most Common False Detections:
+  paperBox: 9 times
+  softPlastic: 6 times
+  book: 4 times
+  milkCarton: 2 times
+  plasticContainer: 1 times
+  vape: 1 times
+  paperCup: 1 times
+  crumpledPaper: 1 times
+
+
+Analysis for Class: pastry
+Total True Positive Detections: 130
+Total Class under General: 35
+Average Max Confidence for True Class: 0.7472
+Average Number of Items Detected: 2.05
+True Positive Detections:
+  Mean Confidence: 0.6502 (65.02%)
+  Confidence Distribution:
+    1-40: 14
+    40-60: 29
+    60-70: 38
+    70-80: 34
+    80-90: 28
+    90-100: 1
+False Positive Detections:
+  Mean Confidence: 0.4952 (49.52%)
+  Confidence Distribution:
+    1-40: 21
+    40-60: 22
+    60-70: 9
+    70-80: 8
+    80-90: 1
+    90-100: 0
+Top Most Common False Detections:
+  sandwich: 22 times
+  meat: 16 times
+  fruit: 1 times
+  shoe: 1 times
+
+
+Analysis for Class: penPencil
+Total True Positive Detections: 230
+Total Class under General: 26
+Average Max Confidence for True Class: 0.7592
+Average Number of Items Detected: 2.57
+True Positive Detections:
+  Mean Confidence: 0.6559 (65.59%)
+  Confidence Distribution:
+    1-40: 26
+    40-60: 60
+    60-70: 41
+    70-80: 71
+    80-90: 58
+    90-100: 0
+False Positive Detections:
+  Mean Confidence: 0.5490 (54.90%)
+  Confidence Distribution:
+    1-40: 0
+    40-60: 1
+    60-70: 0
+    70-80: 0
+    80-90: 0
+    90-100: 0
+Top Most Common False Detections:
+  vape: 1 times
+
+
+Analysis for Class: plasticBottle
+Total True Positive Detections: 78
+Total Class under General: 5
+Average Max Confidence for True Class: 0.8154
+Average Number of Items Detected: 1.33
+True Positive Detections:
+  Mean Confidence: 0.7965 (79.65%)
+  Confidence Distribution:
+    1-40: 1
+    40-60: 4
+    60-70: 8
+    70-80: 21
+    80-90: 29
+    90-100: 16
+False Positive Detections:
+  Mean Confidence: 0.7092 (70.92%)
+  Confidence Distribution:
+    1-40: 4
+    40-60: 11
+    60-70: 7
+    70-80: 9
+    80-90: 18
+    90-100: 5
+Top Most Common False Detections:
+  plasticContainer: 23 times
+  glassBottle: 12 times
+  glassJar: 10 times
+  plasticLid: 4 times
+  book: 1 times
+
+
+Analysis for Class: plasticContainer
+Total True Positive Detections: 146
+Total Class under General: 15
+Average Max Confidence for True Class: 0.8453
+Average Number of Items Detected: 1.79
+True Positive Detections:
+  Mean Confidence: 0.7591 (75.91%)
+  Confidence Distribution:
+    1-40: 9
+    40-60: 24
+    60-70: 15
+    70-80: 15
+    80-90: 60
+    90-100: 32
+False Positive Detections:
+  Mean Confidence: 0.5862 (58.62%)
+  Confidence Distribution:
+    1-40: 6
+    40-60: 8
+    60-70: 1
+    70-80: 5
+    80-90: 2
+    90-100: 2
+Top Most Common False Detections:
+  glassJar: 8 times
+  softPlastic: 4 times
+  plasticLid: 2 times
+  milkCarton: 1 times
+  alCan: 1 times
+  plasticBottle: 1 times
+  shoe: 1 times
+
+
+Analysis for Class: plasticLid
+Total True Positive Detections: 98
+Total Class under General: 13
+Average Max Confidence for True Class: 0.8606
+Average Number of Items Detected: 1.33
+True Positive Detections:
+  Mean Confidence: 0.7982 (79.82%)
+  Confidence Distribution:
+    1-40: 5
+    40-60: 7
+    60-70: 9
+    70-80: 11
+    80-90: 54
+    90-100: 17
+False Positive Detections:
+  Mean Confidence: 0.5752 (57.52%)
+  Confidence Distribution:
+    1-40: 8
+    40-60: 10
+    60-70: 9
+    70-80: 5
+    80-90: 6
+    90-100: 0
+Top Most Common False Detections:
+  alCan: 13 times
+  plasticBottle: 9 times
+  plasticMilkBottle: 7 times
+  eggShell: 1 times
+
+
+Analysis for Class: plasticMilkBottle
+Total True Positive Detections: 118
+Total Class under General: 1
+Average Max Confidence for True Class: 0.9040
+Average Number of Items Detected: 1.02
+True Positive Detections:
+  Mean Confidence: 0.8950 (89.50%)
+  Confidence Distribution:
+    1-40: 1
+    40-60: 1
+    60-70: 1
+    70-80: 0
+    80-90: 41
+    90-100: 75
+False Positive Detections:
+  Mean Confidence: 0.7898 (78.98%)
+  Confidence Distribution:
+    1-40: 0
+    40-60: 0
+    60-70: 0
+    70-80: 1
+    80-90: 0
+    90-100: 0
+Top Most Common False Detections:
+  plasticContainer: 1 times
+
+
+Analysis for Class: sandwich
+Total True Positive Detections: 138
+Total Class under General: 15
+Average Max Confidence for True Class: 0.8147
+Average Number of Items Detected: 1.50
+True Positive Detections:
+  Mean Confidence: 0.7488 (74.88%)
+  Confidence Distribution:
+    1-40: 14
+    40-60: 10
+    60-70: 8
+    70-80: 29
+    80-90: 91
+    90-100: 0
+False Positive Detections:
+  Mean Confidence: 0.2987 (29.87%)
+  Confidence Distribution:
+    1-40: 1
+    40-60: 0
+    60-70: 0
+    70-80: 0
+    80-90: 0
+    90-100: 0
+Top Most Common False Detections:
+  No false detections.
+
+
+Analysis for Class: shoe
+Total True Positive Detections: 382
+Total Class under General: 15
+Average Max Confidence for True Class: 0.8402
+Average Number of Items Detected: 3.98
+True Positive Detections:
+  Mean Confidence: 0.7701 (77.01%)
+  Confidence Distribution:
+    1-40: 14
+    40-60: 18
+    60-70: 28
+    70-80: 114
+    80-90: 221
+    90-100: 1
+False Positive Detections:
+  Mean Confidence: 0.3970 (39.70%)
+  Confidence Distribution:
+    1-40: 1
+    40-60: 1
+    60-70: 0
+    70-80: 0
+    80-90: 0
+    90-100: 0
+Top Most Common False Detections:
+  meat: 1 times
+
+
+Analysis for Class: softPlastic
+Total True Positive Detections: 253
+Total Class under General: 83
+Average Max Confidence for True Class: 0.8492
+Average Number of Items Detected: 3.89
+True Positive Detections:
+  Mean Confidence: 0.6404 (64.04%)
+  Confidence Distribution:
+    1-40: 57
+    40-60: 62
+    60-70: 38
+    70-80: 54
+    80-90: 91
+    90-100: 8
+False Positive Detections:
+  Mean Confidence: 0.5575 (55.75%)
+  Confidence Distribution:
+    1-40: 26
+    40-60: 28
+    60-70: 14
+    70-80: 7
+    80-90: 15
+    90-100: 1
+Top Most Common False Detections:
+  paperBox: 44 times
+  plasticContainer: 5 times
+  book: 5 times
+  milkCarton: 3 times
+  fruit: 2 times
+  paperEnvelope: 1 times
+  pastry: 1 times
+  sandwich: 1 times
+  alCan: 1 times
+  noodlePasta: 1 times
+  crumpledPaper: 1 times
+
+
+Analysis for Class: tissueCore
+Total True Positive Detections: 104
+Total Class under General: 0
+Average Max Confidence for True Class: 0.9231
+Average Number of Items Detected: 1.04
+True Positive Detections:
+  Mean Confidence: 0.9227 (92.27%)
+  Confidence Distribution:
+    1-40: 0
+    40-60: 0
+    60-70: 0
+    70-80: 0
+    80-90: 14
+    90-100: 90
+False Positive Detections:
+  No false positive detections.
+Top Most Common False Detections:
+  No false detections.
+
+
+Analysis for Class: vape
+Total True Positive Detections: 114
+Total Class under General: 0
+Average Max Confidence for True Class: 0.8687
+Average Number of Items Detected: 1.14
+True Positive Detections:
+  Mean Confidence: 0.8651 (86.51%)
+  Confidence Distribution:
+    1-40: 0
+    40-60: 0
+    60-70: 0
+    70-80: 8
+    80-90: 86
+    90-100: 20
+False Positive Detections:
+  No false positive detections.
+Top Most Common False Detections:
+  No false detections.
+
+
+Analysis for Class: vegeScraps
+Total True Positive Detections: 97
+Total Class under General: 14
+Average Max Confidence for True Class: 0.7079
+Average Number of Items Detected: 1.19
+True Positive Detections:
+  Mean Confidence: 0.6595 (65.95%)
+  Confidence Distribution:
+    1-40: 12
+    40-60: 20
+    60-70: 20
+    70-80: 34
+    80-90: 21
+    90-100: 2
+False Positive Detections:
+  Mean Confidence: 0.5529 (55.29%)
+  Confidence Distribution:
+    1-40: 2
+    40-60: 5
+    60-70: 1
+    70-80: 1
+    80-90: 0
+    90-100: 1
+Top Most Common False Detections:
+  fruit: 3 times
+  tissueCore: 2 times
+  penPencil: 2 times
+  meat: 1 times

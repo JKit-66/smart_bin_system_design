@@ -1,0 +1,33 @@
+{
+  "sessions": 0,
+  "total_questions": 130,
+  "categories": {
+    "Mixed Recycling": {
+      "correct": 17,
+      "incorrect": 9,
+      "times_shown": 26
+    },
+    "Paper": {
+      "correct": 3,
+      "incorrect": 28,
+      "times_shown": 31
+    },
+    "Food Waste": {
+      "correct": 5,
+      "incorrect": 30,
+      "times_shown": 35
+    },
+    "General Waste": {
+      "correct": 6,
+      "incorrect": 31,
+      "times_shown": 37
+    },
+    "Prohibited Item": {
+      "correct": 0,
+      "incorrect": 1,
+      "times_shown": 1
+    }
+  },
+  "total_correct": 31,
+  "total_incorrect": 99
+}
