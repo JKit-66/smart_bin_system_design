@@ -1,2 +1,46 @@
-# smart_bin_system_design
- This project introduces a smart waste sorting bin tailored for primary schools, harnessing computer vision and the YOLOv8 framework to detect and classify waste items placed in a sorting box. The system sorts waste into four school-appropriate recycling categories (4 categories: Mixed Recycling, Food Waste, General Waste, and Paper) and uses motor-driven mechanisms, controlled by ESP32-S3 microcontrollers, to automatically direct items into the correct bins. Aimed at fostering recycling awareness among young students, the bin offers real-time object detection, a user-friendly GUI for monitoring, and educational components to engage children in sustainable practices. The repository provides a comprehensive implementation, encompassing YOLOv8 model training scripts, GUI development, machine learning integration, and firmware for ESP32-S3-based motor control and communication.
+# Smart Bin System Design
+
+A smart waste sorting bin designed for primary schools, leveraging computer vision and the YOLOv8 framework to classify and sort waste into five recycling categories: Mixed Recycling, Food Waste, General Waste, Paper, and Prohibited Item. The system uses motor-driven mechanisms controlled by ESP32-S3 microcontrollers to automate sorting, aiming to foster recycling awareness among students through real-time object detection, a Pygame-based GUI, and educational components.
+
+## Features
+
+- **Waste Classification**: Utilizes YOLOv8 for real-time detection and classification of waste items.
+- **Automated Sorting**: Employs ESP32-S3 microcontrollers to control motors for sorting waste into designated bins.
+- **Interactive GUI**: Includes a Pygame-based interface for monitoring and educational interaction.
+- **Educational Focus**: Designed to engage young students in sustainable practices.
+- **Comprehensive Pipeline**: Covers model training, data processing, and hardware integration.
+
+## Repository Structure
+
+### `ESP32-Arduino Code`
+
+Contains Arduino code for controlling the sorting box's movement and lid operations in the auto-sorting mechanism.
+
+### `GUI`
+
+- **File**: `main_interactive_game.py`
+- **Description**: Run this file to launch the Pygame GUI for monitoring and interaction.
+- **Note**: Update the path to the YOLO `.pt` weight file in the script before running.
+
+### `Object Classification Training`
+
+- **File**: `run.sbatch`
+- **Description**: Main script for submitting YOLOv8 training jobs to an HPC cluster. It executes `trainYOLO.py` under the `roboblow` folder for model training.
+
+### `Object Classification Pre-Training Processing`
+
+- **Description**: Contains a script to update class indices in label files for the dataset.
+- **Dataset**: The `dataset` folder includes all waste items for training, split into `train`, `test`, and `valid` subsets after compilation.
+
+### `Object Classification Post-Training Processing Result`
+
+Contains scripts and data files for analyzing validation results:
+
+- `step1_validation_step_auto_output_to_csv.py`: Validates detection on dataset images, annotates results into a `results` folder, and compiles them into a CSV file.
+- `DetectionResults_34dfa47a17634b648b49de72c5d4d376_v7.csv`: Stores detection results from validation.
+- `step2_post_process_excel_csv_file.py`: Analyzes the CSV file, calculating metrics like confidence score distributions and true detection rates, saving results to `_v7.txt`.
+- `_v7.txt`: Contains analyzed data for each class.
+- `step3_summarize_exceldata_to_one_big_CM_matrix.py`: Processes `_v7.txt` into a 27x27 confusion matrix.
+- `step4_categorize_big_CM_to_5_categories.py`: Reduces the 27x27 matrix into a 6x6 matrix based on recycling categories.
+- `step5_plotting_of_CM_with_matrix.py`: Plots the confusion matrices with labels and titles.
+- `step6_get_conf
