@@ -43,4 +43,35 @@ Contains scripts and data files for analyzing validation results:
 - `step3_summarize_exceldata_to_one_big_CM_matrix.py`: Processes `_v7.txt` into a 27x27 confusion matrix.
 - `step4_categorize_big_CM_to_5_categories.py`: Reduces the 27x27 matrix into a 6x6 matrix based on recycling categories.
 - `step5_plotting_of_CM_with_matrix.py`: Plots the confusion matrices with labels and titles.
-- `step6_get_conf
+- `step6_get_confidenceScore_distribution_from_excel_csv_file.py`: Analyzes `_v7.txt` to extract and sort confidence score distributions for deeper model insights.
+
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/JKit-66/smart_bin_system_design.git
+   ```
+2. For ESP32 firmware, install the Arduino IDE and required ESP32 board support.
+
+3. Update the YOLO weight file path in `GUI/main_interactive_game.py`.
+
+
+## Usage
+
+1. **Train the Model**:
+   - Submit the `run.sbatch` script to your HPC cluster for YOLOv8 training.
+2. **Run the GUI**:
+   - Execute `python GUI/main_interactive_game.py` to launch the interactive interface.
+3. **Upload Firmware**:
+   - Use Arduino IDE to upload the code in `ESP32-Arduino Code` to the ESP32-S3 microcontroller.
+4. **Analyze Results**:
+   - Run the scripts in `Object Classification Post-Training Processing Result` sequentially to process and visualize model performance.
+
+
+## Acknowledgments
+
+- Built with YOLOv8 for object detection.
+- Utilizes Pygame for the GUI.
+- Powered by ESP32-S3 microcontrollers for hardware control.
