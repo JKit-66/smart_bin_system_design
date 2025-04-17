@@ -20,17 +20,19 @@ Contains Arduino code for controlling the sorting box's movement and lid operati
 
 - **File**: `main_interactive_game.py`
 - **Description**: Run this file to launch the Pygame GUI for monitoring and interaction.
-- **Note**: Update the path to the YOLO `.pt` weight file in the script before running.
+- **Note**: Update the path to the YOLO `best.pt` weight file in the script before running.
+
+### `Object Classification Pre-Training Processing`
+
+- **Description**: Contains a script to update class indices in label files for the dataset.
+- **Dataset**: The `dataset` folder includes all waste items for training, split into `train`, `test`, and `valid` subsets after compilation.
+
 
 ### `Object Classification Training`
 
 - **File**: `run.sbatch`
 - **Description**: Main script for submitting YOLOv8 training jobs to an HPC cluster. It executes `trainYOLO.py` under the `roboblow` folder for model training.
 
-### `Object Classification Pre-Training Processing`
-
-- **Description**: Contains a script to update class indices in label files for the dataset.
-- **Dataset**: The `dataset` folder includes all waste items for training, split into `train`, `test`, and `valid` subsets after compilation.
 
 ### `Object Classification Post-Training Processing Result`
 
