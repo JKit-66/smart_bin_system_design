@@ -1,6 +1,6 @@
 # Smart Bin System Design
 
-A smart waste sorting bin designed for primary schools, leveraging computer vision and the YOLOv8 framework to classify and sort waste into five recycling categories: Mixed Recycling, Food Waste, General Waste, Paper, and Prohibited Item. The system uses motor-driven mechanisms controlled by ESP32-S3 microcontrollers to automate sorting, aiming to foster recycling awareness among students through real-time object detection, a Pygame-based GUI, and educational components.
+A smart waste sorting bin designed for primary schools, developed as a final year project at the University of Southampton. It leverages computer vision and the YOLOv8 framework to classify and sort waste into five recycling categories: Mixed Recycling, Food Waste, General Waste, Paper, and Prohibited Item. The system uses motor-driven mechanisms controlled by ESP32-S3 microcontrollers to automate sorting, aiming to foster recycling awareness among students through real-time object detection, a Pygame-based GUI, and educational components.
 
 ## Features
 
