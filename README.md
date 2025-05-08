@@ -47,6 +47,9 @@ Contains scripts and data files for analyzing validation results:
 - `step5_plotting_of_CM_with_matrix.py`: Plots the confusion matrices with labels and titles.
 - `step6_get_confidenceScore_distribution_from_excel_csv_file.py`: Analyzes `_v7.txt` to extract and sort confidence score distributions for deeper model insights.
 
+### `Image Dataset Source Citation`
+
+- `Data Source Citation Tracking_Roboflow_Kaggle_RealWaste.csv`: Contains a list of sources and links to the Roboflow Universe, Kaggle, and RealWaste datasets used in the development of this project.
 
 ## Installation
 
